@@ -1,0 +1,29 @@
+{
+  "name": "smart-home-automation",
+  "version": "1.0.0",
+  "description": "A modern smart home automation platform with React frontend and FastAPI backend",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "start-backend": "cd backend && uvicorn main:app --reload",
+    "install-all": "npm install && cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
