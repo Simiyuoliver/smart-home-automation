@@ -61,14 +61,34 @@ yarn start
 
 ```
 smart-home-automation/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── LoginPage.jsx
-│   │   ├── SignupPage.jsx
-│   │   └── SettingsPage.jsx
-│   ├── App.js
-│   └── index.js
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   ├── core/
+│   │   └── db/
+│   ├── main.py
+│   └── requirements.txt
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── auth/
+│       │   │   ├── LoginPage.jsx
+│       │   │   └── SignupPage.jsx
+│       │   ├── dashboard/
+│       │   │   ├── Dashboard.jsx
+│       │   │   ├── DeviceCard.jsx
+│       │   │   ├── DeviceControls.jsx
+│       │   │   ├── DeviceList.jsx
+│       │   │   └── DeviceStats.jsx
+│       │   └── settings/
+│       │       └── SettingsPage.jsx
+│       ├── hooks/
+│       ├── services/
+│       ├── utils/
+│       ├── styles/
+│       ├── App.js
+│       └── index.js
 ├── package.json
 └── README.md
 ```
@@ -81,12 +101,36 @@ smart-home-automation/
 - Remember me functionality
 - Password reset capability
 
+### Device Dashboard
+- Real-time device status monitoring
+- Interactive device controls
+- Power consumption statistics
+- Device scheduling
+- Automation rules
+- Device grouping
+- Scene management
+- Status notifications
+
+### Device Controls
+- On/Off toggles
+- Brightness adjustment
+- Temperature control
+- Color management for lights
+- Fan speed control
+- Door lock/unlock
+- Camera feed viewing
+- Sensor readings
+- Custom device actions
+
 ### Settings Management
 - Profile settings
 - Security settings
 - Notification preferences
 - Appearance customization
 - System settings
+- Device preferences
+- Automation rules
+- Network settings
 
 ### UI/UX Features
 - Responsive design for all screen sizes
@@ -95,6 +139,8 @@ smart-home-automation/
 - Modern animations
 - Loading states
 - Error handling
+- Dark/Light theme
+- Touch-friendly controls
 
 ## Contributing
 
